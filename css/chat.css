@@ -215,3 +215,13 @@
   .image__bubble img {
     border-radius: 15px;
   }
+
+  .copyright {
+    position: absolute;
+    border-radius: 30px;
+    bottom: 80px;
+    color: #fff;
+    background-color: #FDDC8A;
+    font-size: 11px;
+    padding: 6px 9px;
+  }

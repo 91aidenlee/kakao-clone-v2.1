@@ -25,6 +25,40 @@
     cursor: pointer;
 }
 
+.header .header__icon:hover {
+    color: #F2BB16;
+    transition: color 0.3s ease-in-out;
+}
+
+.header .header__icon.search:hover + .search__active {
+    color: #F2BB16;
+    opacity: 1;
+    transition: opacity 1s; 
+}
+
+.header .search__active {
+    width: 170px;
+    position: absolute;
+    display: block;
+    left: 123px;
+    padding: 6px;
+    border-radius: 20px;
+    opacity: 0;
+    border: 1px solid #F2BB16;
+}
+
+.header .search__active input {
+    width: 110px;
+    border: none;
+    text-indent: 7px;
+}
+
+.header .search__active input:focus {
+    outline: none;
+}
+
+
+
 .header .header__header-column {
     display: flex;
     align-items: center;
